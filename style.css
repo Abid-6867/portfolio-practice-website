@@ -2,6 +2,7 @@ body{
 
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 .container{
@@ -9,7 +10,7 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
-    background: url(images/dream-bg.ng);
+    background: url(images/my-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 0;
@@ -26,15 +27,15 @@ body{
 }
 .left-item{
 
-    padding: 300px 30px;
+    padding: 300px 20px 100px 80px;
 }
 .right-item{
 
     padding: 50px;
 }
 img{
-    /* max-width: 600px;
-    max-height: 600px; */
+    max-width: 800px;
+    max-height: 800px;
 }
 .purple-color{
 
@@ -44,17 +45,19 @@ h1 {
 
     font-size: 42px;
     margin-top: 50px;
+    /* padding-left: 20px; */
     
 
 }
 h3 {
     margin-top: 30px;
+    /* padding-left: 20px; */
 
 }
 
 p{
     margin-top: 30px;
-
+    /* padding-left: 20px; */
 }
 a{
 
@@ -73,11 +76,15 @@ button{
     border-radius: 15px;
     padding: 10px 15px;
     margin-top: 20px;
+    margin-left: 0px;
+    
 }
 button:hover{
 
     background-color: black;
     color: blanchedalmond;
+    padding: 15px 20px;
+    transition:500ms;
 }
 button a :hover{
 
