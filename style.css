@@ -63,5 +63,16 @@ img .img-alaign{
 }
 button{
     background-color: lightsalmon;
+    border-radius: 5px;
 
+}
+button:hover{
+
+    background-color: black;
+    color: blanchedalmond;
+}
+button a :hover{
+
+    
+    color: blanchedalmond;
 }
