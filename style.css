@@ -10,7 +10,8 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
-    background: url(images/my-bg.png);
+    /* background: url(images/my-bg.png);
+    background-image: url(images/my-bg.png); */
     background-repeat: no-repeat;
     background-position: center;
     padding: 0;
@@ -90,6 +91,14 @@ button a :hover{
 
     
     color: blanchedalmond;
+}
+
+.job-section{
+
+    width: 100%;
+    height: 600px;
+    background-color: thistle;
+
 }
 /* .left-item{
 
