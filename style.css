@@ -6,14 +6,85 @@ body{
 
 .container{
 
-    width: 80%;
+    width: 100%;
     margin: 0;
     padding: 0;
-    background: url(images/top-banner.png);
+    background: url(images/dream-bg.ng);
     background-repeat: no-repeat;
     background-position: center;
+    padding: 0;
+    margin: 0;
+}
+.left-colum{
+
+    width: 50%;
+    float: left;
+}
+.right-colum{
+    width: 50%;
+    float: left;
 }
 .left-item{
+
+    padding: 300px 30px;
+}
+.right-item{
+
+    padding: 50px;
+}
+img{
+    /* max-width: 600px;
+    max-height: 600px; */
+}
+.purple-color{
+
+    color: red;
+}
+h1 {
+
+    font-size: 42px;
+    margin-top: 50px;
+    
+
+}
+h3 {
+    margin-top: 30px;
+
+}
+
+p{
+    margin-top: 30px;
+
+}
+a{
+
+    text-decoration: none;
+    font-size: 24px;
+    padding: 15px ;
+    color: white;
+}
+.right-item{
+    padding: 100px;
+}
+button{
+
+    background-color: tomato;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+button:hover{
+
+    background-color: black;
+    color: blanchedalmond;
+}
+button a :hover{
+
+    
+    color: blanchedalmond;
+}
+/* .left-item{
 
     padding: 40px 100px;
     margin: 200px 0;
@@ -75,4 +146,4 @@ button a :hover{
 
     
     color: blanchedalmond;
-}
+} */
